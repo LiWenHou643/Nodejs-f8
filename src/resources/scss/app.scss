@@ -1,0 +1,11 @@
+@import 'variables';
+
+.app {
+    background-color: rgb(67, 214, 153);
+    .header {
+        color: $blue-color;
+    }
+    .container {
+        color: $red-color;
+    }
+}
