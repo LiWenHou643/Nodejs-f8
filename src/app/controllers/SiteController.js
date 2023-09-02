@@ -1,13 +1,8 @@
+const Course = require('../models/Course');
 class SiteControlller {
-    // [Get] /
-    index(req, res) {
+    // [Get] /course/:slug
+    index(req, res, next) {
         res.render('home')
     }
-    
-    // [Get] /search
-    search(req, res) {
-        res.send('searching info')
-    }
-
 }
 module.exports = new SiteControlller
